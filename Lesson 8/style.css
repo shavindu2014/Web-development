@@ -1,0 +1,25 @@
+body{
+    background-color:navy;
+    color:white;
+    background-image:linear-gradient(to right,darkblue,rgb(69, 69, 232));
+    background-repeat: no-repeat;
+    background-position:top left;
+}
+.fact-card{
+    color:black;
+   background-color:white;
+}
+.star{
+    background-color:yellow;
+    height:100px;
+    animation-name:twinkle;
+    animation-duration:10s;
+}
+@keyframes twinkle{
+     from{
+        background-color:orange;
+     }
+     to{
+        background-color:orangered;
+     }
+}
