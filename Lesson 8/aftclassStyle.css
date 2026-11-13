@@ -1,0 +1,52 @@
+* {
+  font-family: Arial;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(skyblue, lightblue);
+  animation: skyEffect 10s infinite alternate;
+}
+
+@keyframes skyEffect {
+  from {
+    background: linear-gradient(skyblue, lightblue);
+  }
+  to {
+    background: linear-gradient(deepskyblue, lightcyan);
+  }
+}
+
+h1 {
+  color: darkblue;
+}
+
+.subtitle {
+  color: navy;
+}
+
+.weather-card {
+  background: linear-gradient(deepskyblue, dodgerblue);
+  color: white;
+}
+
+#temperature {
+  font-size: 20px;
+  color: yellow;
+}
+
+.details {
+  font-size: 16px;
+}
+
+.forecast-section {
+  background-color: aliceblue;
+}
+
+.forecast-title {
+  color: darkblue;
+}
+
+.day {
+  color: navy;
+}
