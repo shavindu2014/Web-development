@@ -1,0 +1,44 @@
+body{
+    font-family:'Helvetica','Arial',sans-serif;
+    background-color:whitesmoke;
+    color:rgb(48, 169, 209);
+    font-weight:bold;
+}
+
+h1{
+    color:Pink;
+}
+/*Child Selector*/
+ul > li{
+    font-weight:bold;
+}
+/*Sibling Selector*/
+h3 + p{
+   background-color:rgb(231, 221, 170);
+}
+/* :hover Pseudo-class */
+ul li:hover{
+    color:lightblue;
+}
+/* :nth-child(n) Psudeo-class */
+ul li:nth-child(3){
+    background-color:rgb(231,221,170);
+}
+/* ::first-letter Pseudo-element*/
+p::first-letter{
+    font-size:200%;
+    color:rgb(13, 121, 164);
+}
+/* ::before Pseudo-element */
+ul li::before{
+    content:"🍦"
+}
+
+a{
+    color:rgb(252, 113, 136);
+    text-decoration: none;
+}
+/* ::after Pseudo-element */
+a::after{
+    content:"🔗"
+}
